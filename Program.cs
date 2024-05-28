@@ -70,7 +70,7 @@ class Program
                     //zliczanie wystąpień liter w tekście
                     var licznikLiter = new Dictionary<char, int>();
                     foreach (var znak in tekst.ToUpper().Where(char.IsLetter))
-{
+                    {
                         if (!licznikLiter.ContainsKey(znak))
                         {
                             licznikLiter[znak] = 0;
